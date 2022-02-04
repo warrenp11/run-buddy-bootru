@@ -82,10 +82,19 @@ section {
 /* Hero/Jumbotron Styling Start */
 
 .hero {
-  height: 600px;
+  /* 
+  This format breaks for some reason:
+    height: 600px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+  */
   background-image: url("../images/hero-bg.jpg");
+  height: 600px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .hero-form {
@@ -94,6 +103,9 @@ section {
   width: 500px;
   color: #024e76;
   border: solid 3px #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
 }
 
 /* Hero/Jumbotron Styling End */
