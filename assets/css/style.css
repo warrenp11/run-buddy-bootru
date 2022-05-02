@@ -188,7 +188,7 @@ section {
 
 /* What You Do Styling Start */
 
-.steps {
+.steps { 
   background: #fce138;
 }
 
@@ -210,10 +210,23 @@ section {
 }
 
 .step-info {
+  flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  flex: 2 70%;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
 }
 
 .step-text p {
@@ -226,7 +239,6 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
-
 
 /* What You Do Styling End */
 
